@@ -1,0 +1,15 @@
+@import "fonts";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "greeting";
+@import "featured-products";
+

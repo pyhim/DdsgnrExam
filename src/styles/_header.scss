@@ -1,0 +1,33 @@
+header {
+    height: 72px;
+    padding: 0px 64px 0px 64px;
+
+    .navbar-nav {
+        gap: 32px
+    }
+    
+    .logo_image {
+        width: 130.6px;
+        height: 41px;
+    }
+    
+    .search_icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .search-button {
+        padding: 8px 20px 8px 20px;
+        display: flex;
+        justify-content: space-around;
+        width: 126px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .cart_icon {
+        width: 28px;
+        height: 24px;
+    }
+}
+

@@ -1,0 +1,120 @@
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  height: 72px;
+  padding: 0px 64px 0px 64px;
+}
+header .navbar-nav {
+  gap: 32px;
+}
+header .logo_image {
+  width: 130.6px;
+  height: 41px;
+}
+header .search_icon {
+  width: 24px;
+  height: 24px;
+}
+header .search-button {
+  padding: 8px 20px 8px 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 126px;
+  height: 40px;
+  font-size: 16px;
+}
+header .cart_icon {
+  width: 28px;
+  height: 24px;
+}
+
+.greeting {
+  min-height: 1205px;
+  padding: 112px 64px 112px 64px;
+}
+.greeting .row {
+  gap: 80px;
+  margin: 0 0 80px 0;
+}
+.greeting .title-greeting-text {
+  font-size: 56px;
+  line-height: 67.2px;
+  max-width: 616px;
+  min-height: 201px;
+}
+.greeting .greeting-text-interactive {
+  max-width: 616px;
+  min-height: 196px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.greeting .greeting-actions {
+  gap: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.greeting .btn {
+  border-radius: 5px;
+  padding: 12px 24px 12px 24px;
+}
+
+.featured-products {
+  padding: 112px 64px 112px 64px;
+  min-height: 829px;
+}
+.featured-products .title {
+  min-height: 101px;
+}
+.featured-products .upper {
+  font-size: 48px;
+  line-height: 57.6px;
+}/*# sourceMappingURL=main.css.map */
