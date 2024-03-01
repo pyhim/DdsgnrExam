@@ -2,95 +2,158 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/styles/main.css">
-    <title>Ddsgnr</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap"
+		rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="./src/styles/main.css">
+	<title>Ddsgnr</title>
 </head>
 
 <body>
-    <div class="content">
-        <header class="border-bottom border-bottom-2 border-dark-subtle">
-            <nav class="navbar navbar-expand-md sticky-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img class="logo_image" src="./src/images/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav roboto-regular align-items-center">
-                            <a class="nav-link active border-bottom border-bottom-2 border-dark" aria-current="page"
-                                href="#">Home</a>
-                            <a class="nav-link" href="#">Products</a>
-                            <a class="nav-link" href="#">About Us</a>
-                            <a class="nav-link" href="#">Contact</a>
-                            <a class="nav-link" href="#">
-                                <button type="button" class="btn btn-outline-dark search-button">
-                                    Search
-                                    <img class="search_icon" src="./src/images/search_icon.png" alt="search_icon">
-                                </button>
-                            </a>
-                            <a class="nav-link" href="#"><img class="cart_icon" src="./src/images/cart_icon.png"
-                                    alt="cart_icon"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="greeting">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col title-greeting-text p-0">
-                            <div>Transform Your Home</div>
-                            <div>with Our Stunning</div>
-                            <div class="roboto-bold">Furniture Collection</div>
-                        </div>
-                        <div class="col greeting-text-interactive p-0 d-flex flex-column align-items-start">
-                            <div class="mb-auto">
-                                Welcome to our furniture store, where we believe that a well-furnished home is a happy
-                                home. We offer a wide selection of high-quality furniture for every room in your home,
-                                from cozy sofas and elegant dining sets to stylish office desks and comfortable beds.
-                            </div>
-                            <div class="greeting-actions d-flex">
-                                <button class="btn btn-dark">Shop Now</button>
-                                <button class="btn btn-outline-dark">More</button>
-                            </div>
-                        </div>
-                    </div>
-                    <img class="greeting-couch border border-1 border-dark-sublte rounded img-fluid"
-                        src="./src/images/green_couch.png" alt="green_couch">
-                </div>
-            </section>
-            <section class="featured-products">
-                <div class="container-fluid">
-                    <div class="title d-flex">
-                        <div class="title-text">
-                            <div class="roboto-bold upper mb-auto">Featured Products</div>
-                            <div class="lower">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+	<div class="content">
+		<header class="border-bottom border-bottom-2 border-dark-subtle">
+			<nav class="navbar navbar-expand-md">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<img class="logo_image" src="/src/images/logo.png" alt="logo">
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+						<div class="navbar-nav roboto-regular align-items-center">
+							<a class="nav-link active border-bottom border-bottom-2 border-dark" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">Products</a>
+							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#">
+								<button type="button" class="btn btn-outline-dark search-button d-flex justify-content-between">
+									<span>Search</span>
+									<img class="search_icon" src="/src/images/search_icon.png" alt="search_icon">
+								</button>
+							</a>
+							<a class="nav-link" href="#"><img class="cart_icon" src="/src/images/cart_icon.png" alt="cart_icon"></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="greeting">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col title-greeting-text p-0">
+							<p>Transform Your Home</p>
+							<p>with Our Stunning</p>
+							<p class="roboto-bold">Furniture Collection</p>
+						</div>
+						<div class="col greeting-text-interactive p-0 d-flex flex-column align-items-start">
+							<p class="mb-auto">
+								Welcome to our furniture store, where we believe that a well-furnished home is a happy
+								home. We offer a wide selection of high-quality furniture for every room in your home,
+								from cozy sofas and elegant dining sets to stylish office desks and comfortable beds.
+							</p>
+							<div class="greeting-actions d-flex">
+								<button class="btn btn-dark">Shop Now</button>
+								<button class="btn btn-outline-dark">More</button>
+							</div>
+						</div>
+					</div>
+					<img class="greeting-couch border border-1 border-dark-sublte rounded img-fluid"
+						src="./src/images/green_couch.png" alt="green_couch">
+				</div>
+			</section>
+			<section class="featured-products">
+				<div class="container-fluid">
+					<div class="title d-flex justify-content-between">
+						<div class="title-text">
+							<p class="roboto-bold upper">Featured Products</p>
+							<p class="lower">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+						</div>
+						<div class="button-container d-flex align-items-end">
+							<button class="btn btn-outline-dark">View All</button>
+						</div>
+					</div>
+					<div class="products-cards row m-0">
+						<div class="col p-0 d-flex flex-column">
+							<img src="/src/images/item-1.png" alt="item-1" width="304" height="304">
+							<div class="info d-flex justify-content-between">
+								<div class="description d-flex flex-column">
+									<p class="product-name roboto-medium">Round Dining Table</p>
+									<p class="product-description">Bed table</p>
+								</div>
+								<p class="price">55$</p>
+							</div>
+							<button class="btn btn-outline-dark">Add to cart</button>
+						</div>
+						<div class="col p-0 d-flex flex-column">
+							<img src="/src/images/item-2.png" alt="item-2" width="304" height="304">
+							<div class="info d-flex justify-content-between">
+								<div class="description d-flex flex-column">
+									<p class="product-name roboto-medium">Right Hand Fabric</p>
+									<p class="product-description">Desk Decor</p>
+								</div>
+								<p class="price">55$</p>
+							</div>
+							<button class="btn btn-outline-dark">Add to cart</button>
+						</div>
+						<div class="col p-0 d-flex flex-column">
+							<img src="/src/images/item-3.png" alt="item-3" width="304" height="304">
+							<div class="info d-flex justify-content-between">
+								<div class="description d-flex flex-column">
+									<p class="product-name roboto-medium">Velvet Wingback Chair</p>
+									<p class="product-description">Basket</p>
+								</div>
+								<p class="price">55$</p>
+							</div>
+							<button class="btn btn-outline-dark">Add to cart</button>
+						</div>
+						<div class="col p-0 d-flex flex-column">
+							<img src="/src/images/item-4.png" alt="item-4" width="304" height="304">
+							<div class="info d-flex justify-content-between">
+								<div class="description d-flex flex-column">
+									<p class="product-name roboto-medium">Velvet Wingback Chair</p>
+									<p class="product-description">Chair</p>
+								</div>
+								<p class="price">55$</p>
+							</div>
+							<button class="btn btn-outline-dark">Add to cart</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sales d-flex">
+				<div class="container-fluid d-flex justify-content-between">
+					<div class="interactive-description d-flex flex-column align-self-end">
+						<p class="roboto-medium tagline">Tagline</p>
+						<p class="roboto-bold sales-up">Sales Up to 50%</p>
+						<div class="buttons d-flex">
+							<button class="btn btn-outline-light">Shop Now</button>
+							<a class="d-flex align-items-center link-underline link-underline-opacity-0" href="#">
+								<p>Button</p><img src="/src/images/arrow-right.svg" alt="arrow-right">
+							</a>
+						</div>
+					</div>
+					<img class="chandelier-img align-self-start" src="/src/images/chandelier.png" alt="chandelier">
+				</div>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>

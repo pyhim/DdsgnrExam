@@ -1,6 +1,6 @@
 .greeting {
     min-height: 1205px;
-    padding: 112px 64px 112px 64px;
+    padding: $container-default-padding;
 
     .row {
         gap: 80px;
@@ -9,7 +9,7 @@
 
     .title-greeting-text {
         font-size: 56px;
-        line-height: 67.2px;
+        line-height: 1.2;
         max-width: 616px;
         min-height: 201px;
     }
@@ -18,18 +18,19 @@
         max-width: 616px;
         min-height: 196px;
         font-size: 18px;
-        line-height: 27px;
+        line-height: 1.5;
     }
 
     .greeting-actions {
         gap: 16px;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
     }
 
     .btn {
         border-radius: 5px;
-        padding: 12px 24px 12px 24px;
+        padding: 12px 24px;
+        line-height: 1.5;
     }
 }
 

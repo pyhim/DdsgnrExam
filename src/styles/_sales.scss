@@ -1,0 +1,41 @@
+.sales {
+    padding: 0 64px 112px;
+    min-height: 424px;
+    background-color: black;
+
+    .container-fluid {
+        padding-right: 100px;
+    }
+
+    .interactive-description {
+        padding: 11px 4px;
+        gap: 16px;
+    }
+
+    p {
+        color: white;
+    }
+
+    .tagline {
+        line-height: 1.5;
+    }
+
+    .sales-up {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .buttons {
+        gap: 16px;
+        padding-top: 16px;
+        line-height: 1.5;
+    }
+
+    .buttons .btn {
+        padding: 12px 24px;
+    }
+
+    .buttons a {
+        gap: 8px;
+    }
+}

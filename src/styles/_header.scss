@@ -1,6 +1,6 @@
 header {
     height: 72px;
-    padding: 0px 64px 0px 64px;
+    padding: 0px 64px;
 
     .navbar-nav {
         gap: 32px
@@ -17,12 +17,11 @@ header {
     }
     
     .search-button {
-        padding: 8px 20px 8px 20px;
-        display: flex;
-        justify-content: space-around;
+        padding: 8px 20px;
         width: 126px;
         height: 40px;
         font-size: 16px;
+        line-height: 1.5;
     }
     
     .cart_icon {

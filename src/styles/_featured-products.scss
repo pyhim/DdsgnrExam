@@ -1,13 +1,55 @@
+$line-height-cards: 1.5;
+
 .featured-products {
-    padding: 112px 64px 112px 64px;
+    padding: $container-default-padding;
     min-height: 829px;
 
     .title {
         min-height: 101px;
+        margin-bottom: 80px;
     }
 
     .upper {
         font-size: 48px;
-        line-height: 57.6px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+
+    .title .btn {
+        padding: 12px 24px;
+        line-height: 1.5;
+        border-radius: 5px;
+    }
+
+    .products-cards {
+        min-height: 424px;
+        gap: 32px;
+    }
+
+    .col {
+        gap: 16px;
+        max-width: 304px;
+    }
+
+    .product-name {
+        line-height: $line-height-cards;
+        font-size: 18px;
+    }
+
+    .product-description {
+        line-height: $line-height-cards;
+        font-size: 14px;
+    }
+
+    .price {
+        line-height: $line-height-cards;
+        font-size: 20px;
+    }
+
+    .products-cards .btn {
+        line-height: $line-height-cards;
+        font-size: 16px;
+        padding: 8px 20px;
+        border-radius: 5px;
     }
 }
