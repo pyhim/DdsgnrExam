@@ -1,0 +1,67 @@
+.contact-us {
+    padding: $container-default-padding;
+
+    .container-fluid#generalContactUsContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+    
+    .contacts-description {
+        gap: 32px;
+    }
+
+    p#tagline {
+        line-height: 1.5;
+        margin-bottom: 16px;   
+    }
+
+    p#contactUs {
+        line-height: 1.2;
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+
+    p#lorem {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .contacts-section {
+        padding: 8px 0;
+        gap: 16px;
+    }
+
+    .contact-row {
+        gap: 16px;
+        line-height: 1.5;
+    }
+
+    form {
+        gap: 24px;
+    }
+
+    .form-control {
+        border-color: black;
+    }
+
+    .form-check-input {
+        border-radius: 0;
+        border-color: black;
+        width: 18px;
+        height: 18px;
+    }
+
+    input.form-control {
+        padding: 12px 12px;
+    }
+
+    textarea#inputMessage {
+        padding: 12px 12px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        line-height: 1.5;
+    }
+}

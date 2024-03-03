@@ -1,0 +1,51 @@
+.links {
+    padding: 80px 64px;
+    line-height: 1.5;
+
+    .d-flex#generalContainer {
+        gap: 128px;
+    }
+
+    .links-category {
+        max-width: 684px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }
+
+    .links-column {
+        gap: 16px;
+    }
+
+    .links-column li {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    .subscribe {
+        max-width: 500px;
+        gap: 24px;
+    }
+
+    .subscribe-title {
+        gap: 16px;
+    }
+
+    form {
+        gap: 16px;
+    }
+
+    form .form-control {
+        border-color: black;
+        padding: 12px 12px;
+    }
+
+    span#formInputContainer {
+        gap: 16px;
+    }
+
+    #privacyPolicyConsent {
+        font-size: 12px;
+        color: black;
+    }
+}
