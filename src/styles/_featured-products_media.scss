@@ -1,0 +1,16 @@
+.featured-products {
+    padding: $container-mobile-padding;
+
+    .title {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .upper {
+        font-size: 32px;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+}

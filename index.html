@@ -12,6 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Ddsgnr</title>
 </head>
 
@@ -20,237 +21,256 @@
     <header class="border-bottom border-bottom-2 border-dark-subtle">
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logo_image" src="/src/images/logo.png" alt="logo">
+          <a href="navbar-toggler-icon">
+            <img src="/src/images/menu.svg" alt="menu-icon">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-black align-items-center">
-              <a class="nav-link active border-bottom border-bottom-2 border-dark" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Products</a>
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Contact</a>
-              <a class="nav-link" href="#">
-                <button type="button" class="btn btn-outline-dark search-button d-flex justify-content-between">
-                  <span>Search</span>
-                  <img class="search_icon" src="/src/images/search_icon.png" alt="search_icon">
-                </button>
-              </a>
-              <a class="nav-link" href="#"><img class="cart_icon" src="/src/images/cart_icon.png" alt="cart_icon"></a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="greeting">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col title-greeting-text p-0">
-              <p>Transform Your Home</p>
-              <p>with Our Stunning</p>
-              <p class="roboto-bold">Furniture Collection</p>
-            </div>
-            <div class="col greeting-text-interactive p-0 d-flex flex-column align-items-start">
-              <p class="mb-auto">
-                Welcome to our furniture store, where we believe that a well-furnished home is a happy
-                home. We offer a wide selection of high-quality furniture for every room in your home,
-                from cozy sofas and elegant dining sets to stylish office desks and comfortable beds.
-              </p>
-              <div class="greeting-actions d-flex">
-                <button class="btn btn-dark">Shop Now</button>
-                <button class="btn btn-outline-dark">More</button>
-              </div>
-            </div>
-          </div>
-          <img class="greeting-couch border border-1 border-dark-sublte rounded img-fluid"
-            src="./src/images/green_couch.png" alt="green_couch">
-        </div>
-      </section>
-      <section class="featured-products">
-        <div class="container-fluid">
-          <div class="title d-flex justify-content-between">
-            <div class="title-text">
-              <p class="roboto-bold upper">Featured Products</p>
-              <p class="lower">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="button-container d-flex align-items-end">
-              <button class="btn btn-outline-dark">View All</button>
-            </div>
-          </div>
-          <div class="products-cards row m-0">
-            <div class="col p-0 d-flex flex-column">
-              <img src="/src/images/item-1.png" alt="item-1" width="304" height="304">
-              <div class="info d-flex justify-content-between">
-                <div class="description d-flex flex-column">
-                  <p class="product-name roboto-medium">Round Dining Table</p>
-                  <p class="product-description">Bed table</p>
-                </div>
-                <p class="price">55$</p>
-              </div>
-              <button class="btn btn-outline-dark">Add to cart</button>
-            </div>
-            <div class="col p-0 d-flex flex-column">
-              <img src="/src/images/item-2.png" alt="item-2" width="304" height="304">
-              <div class="info d-flex justify-content-between">
-                <div class="description d-flex flex-column">
-                  <p class="product-name roboto-medium">Right Hand Fabric</p>
-                  <p class="product-description">Desk Decor</p>
-                </div>
-                <p class="price">55$</p>
-              </div>
-              <button class="btn btn-outline-dark">Add to cart</button>
-            </div>
-            <div class="col p-0 d-flex flex-column">
-              <img src="/src/images/item-3.png" alt="item-3" width="304" height="304">
-              <div class="info d-flex justify-content-between">
-                <div class="description d-flex flex-column">
-                  <p class="product-name roboto-medium">Velvet Wingback Chair</p>
-                  <p class="product-description">Basket</p>
-                </div>
-                <p class="price">55$</p>
-              </div>
-              <button class="btn btn-outline-dark">Add to cart</button>
-            </div>
-            <div class="col p-0 d-flex flex-column">
-              <img src="/src/images/item-4.png" alt="item-4" width="304" height="304">
-              <div class="info d-flex justify-content-between">
-                <div class="description d-flex flex-column">
-                  <p class="product-name roboto-medium">Velvet Wingback Chair</p>
-                  <p class="product-description">Chair</p>
-                </div>
-                <p class="price">55$</p>
-              </div>
-              <button class="btn btn-outline-dark">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="sales d-flex">
-        <div class="container-fluid d-flex justify-content-between">
-          <div class="interactive-description d-flex flex-column align-self-end">
-            <p class="roboto-medium tagline">Tagline</p>
-            <p class="roboto-bold sales-up">Sales Up to 50%</p>
-            <div class="buttons d-flex">
-              <button class="btn btn-outline-light">Shop Now</button>
-              <a class="d-flex align-items-center link-underline link-underline-opacity-0" href="#">
-                <p>Button</p><img src="/src/images/arrow-right.svg" alt="arrow-right">
-              </a>
-            </div>
-          </div>
-          <img class="chandelier-img align-self-start" src="/src/images/chandelier.png" alt="chandelier">
-        </div>
-      </section>
-    </main>
-    <footer>
-      <section class="contact-us">
-        <div class="container-fluid" id="generalContactUsContainer">
-          <div class="contacts-description d-flex flex-column">
-            <div class="title-section d-flex flex-column">
-              <p class="roboto-medium" id="tagline">Tagline</p>
-              <p class="roboto-bold" id="contactUs">Contact Us</p>
-              <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="contacts-section d-flex flex-column p-8">
-              <span class="contact-row d-flex">
-                <img src="/src/images/mail_icon.svg" alt="mail-icon" width="24" height="24">
-                <p>hello@relume.io</p>
-              </span>
-              <span class="contact-row d-flex">
-                <img src="/src/images/telephone_icon.svg" alt="telephone-icon" width="24" height="24">
-                <p>+1 (555) 000-0000</p>
-              </span>
-              <span class="contact-row d-flex">
-                <img src="/src/images/location_icon.svg" alt="location-icon" width="24" height="24">
-                <p>123 Sample St, Sydney NSW 2000 AU</p>
-              </span>
-            </div>
-          </div>
-          <form class="d-flex container-fluid flex-column">
-            <div>
-              <label for="inputName" class="form-label">Name</label>
-              <input class="form-control" id="inputName">
-            </div>
-            <div>
-              <label for="inputEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail">
-            </div>
-            <div>
-              <label for="inputMessage" class="form-label">Message</label>
-              <textarea class="form-control" id="inputMessage" placeholder="Type your message..." rows="7"></textarea>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                <a class="link-dark" href="#">I accept the Terms</a>
-              </label>
-            </div>
-            <div>
-              <button type="submit" class="btn btn-dark">Submit</button>
-            </div>
-          </form>
-        </div>
-      </section>
-      <section class="links">
-        <div class="d-flex" id="generalContainer">
-          <div class="container-fluid links-category">
+          <a class="navbar-brand" href="#">
             <span class="logo-col inter-bold">
               <img src="/src/images/logo.svg" alt="logo">
               Ddsgnr
             </span>
-            <div class="links-column d-flex flex-column justify-content-between">
-              <p class="roboto-medium">Categories</p>
-              <ul class="nav flex-column">
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Wall art</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Vase</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Tea Kettle</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Chair</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Basket</a></li>
-              </ul>
-            </div>
-            <div class="links-column d-flex flex-column align-self-end">
-              <ul class="nav flex-column">
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Bed table</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Armchair</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Ficus</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Desk decor</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Cactus</a></li>
-              </ul>
-            </div>
-            <div class="links-column d-flex flex-column justify-content-between">
-              <p class="roboto-medium">About</p>
-              <ul class="nav flex-column">
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Contact us</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">About Us</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Support/Help</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">FAQ</a></li>
-                <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Terms and Conditions</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="container-fluid subscribe d-flex flex-column">
-            <div class="subscribe-title d-flex flex-column">
-              <p class="roboto-medium">Subscribe</p>
-              <p>Join our newsletter to stay up to date on features and releases.</p>
-            </div>
-            <form class="d-flex flex-column">
-              <span class="d-flex justify-content-between" id="formInputContainer">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"
-                  aria-describedby="privacyPolicyConsent">
-                <button class="btn btn-outline-dark">Subscribe</button>
-              </span>
-              <div id="privacyPolicyConsent" class="form-text">
-                By subscribing you agree to with our <u>Privacy Policy</u> and provide consent to receive updates from our
-                company.
-              </div>
-            </form>
+          </a>
+          <a class="navbar-search-icon" href="#">
+            <img src="/src/images/search-normal.svg" alt="search-icon">
+          </a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav text-black align-items-center">
+              <li class="navbar-item">
+                <a class="nav-link active border-bottom border-bottom-2 border-dark" aria-current="page"
+                  href="#">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">
+                  <button type="button" class="btn btn-outline-dark search-button d-flex justify-content-between">
+                    <span>Search</span>
+                    <img class="search_icon" src="/src/images/search-normal.svg" alt="search_icon" width="24"
+                      height="24">
+                  </button>
+                </a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#"><img class="cart_icon" src="/src/images/shopping-cart.svg" alt="cart_icon"
+                    width="24" height="24"></a>
+              </li>
           </div>
         </div>
-      </section>
-    </footer>
+  </div>
+  </nav>
+  </header>
+  <main>
+    <section class="greeting">
+      <div class="container-fluid">
+        <div class="title-greeting-text p-0">
+          <p>Transform Your Home</p>
+          <p>with Our Stunning</p>
+          <p class="roboto-bold">Furniture Collection</p>
+        </div>
+        <div class="greeting-text-interactive p-0 d-flex flex-column align-items-start">
+          <p class="mb-auto">
+            Welcome to our furniture store, where we believe that a well-furnished home is a happy
+            home. We offer a wide selection of high-quality furniture for every room in your home,
+            from cozy sofas and elegant dining sets to stylish office desks and comfortable beds.
+          </p>
+          <div class="greeting-actions d-flex">
+            <button class="btn btn-dark">Shop Now</button>
+            <button class="btn btn-outline-dark">More</button>
+          </div>
+        </div>
+      </div>
+      <img class="greeting-couch border border-1 border-dark-sublte rounded img-fluid"
+        src="./src/images/green_couch.png" alt="green_couch">
+    </section>
+    <section class="featured-products">
+      <div class="container-fluid">
+        <div class="title d-flex justify-content-between">
+          <div class="title-text">
+            <p class="roboto-bold upper">Featured Products</p>
+            <p class="lower">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="button-container d-flex align-items-end">
+            <button class="btn btn-outline-dark">View All</button>
+          </div>
+        </div>
+        <div class="products-cards row m-0 justify-content-center">
+          <div class="col p-0 d-flex flex-column">
+            <img src="/src/images/item-1.png" alt="item-1" width="304" height="304">
+            <div class="info d-flex justify-content-between">
+              <div class="description d-flex flex-column">
+                <p class="product-name roboto-medium">Round Dining Table</p>
+                <p class="product-description">Bed table</p>
+              </div>
+              <p class="price">55$</p>
+            </div>
+            <button class="btn btn-outline-dark">Add to cart</button>
+          </div>
+          <div class="col p-0 d-flex flex-column">
+            <img src="/src/images/item-2.png" alt="item-2" width="304" height="304">
+            <div class="info d-flex justify-content-between">
+              <div class="description d-flex flex-column">
+                <p class="product-name roboto-medium">Right Hand Fabric</p>
+                <p class="product-description">Desk Decor</p>
+              </div>
+              <p class="price">55$</p>
+            </div>
+            <button class="btn btn-outline-dark">Add to cart</button>
+          </div>
+          <div class="col p-0 d-flex flex-column">
+            <img src="/src/images/item-3.png" alt="item-3" width="304" height="304">
+            <div class="info d-flex justify-content-between">
+              <div class="description d-flex flex-column">
+                <p class="product-name roboto-medium">Velvet Wingback Chair</p>
+                <p class="product-description">Basket</p>
+              </div>
+              <p class="price">55$</p>
+            </div>
+            <button class="btn btn-outline-dark">Add to cart</button>
+          </div>
+          <div class="col p-0 d-flex flex-column">
+            <img src="/src/images/item-4.png" alt="item-4" width="304" height="304">
+            <div class="info d-flex justify-content-between">
+              <div class="description d-flex flex-column">
+                <p class="product-name roboto-medium">Velvet Wingback Chair</p>
+                <p class="product-description">Chair</p>
+              </div>
+              <p class="price">55$</p>
+            </div>
+            <button class="btn btn-outline-dark">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sales d-flex">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="interactive-description d-flex flex-column align-self-end">
+          <p class="roboto-medium tagline">Tagline</p>
+          <p class="roboto-bold sales-up">Sales Up to 50%</p>
+          <div class="buttons d-flex">
+            <button class="btn btn-outline-light">Shop Now</button>
+            <a class="d-flex align-items-center link-underline link-underline-opacity-0" href="#">
+              <p>Button</p><img src="/src/images/arrow-right.svg" alt="arrow-right">
+            </a>
+          </div>
+        </div>
+        <img class="chandelier-img align-self-start img-fluid" src="/src/images/chandelier.png" alt="chandelier">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="contact-us">
+      <div class="container-fluid" id="generalContactUsContainer">
+        <div class="contacts-description d-flex flex-column">
+          <div class="title-section d-flex flex-column">
+            <p class="roboto-medium" id="tagline">Tagline</p>
+            <p class="roboto-bold" id="contactUs">Contact Us</p>
+            <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="contacts-section d-flex flex-column p-8">
+            <span class="contact-row d-flex">
+              <img src="/src/images/mail_icon.svg" alt="mail-icon" width="24" height="24">
+              <p>hello@relume.io</p>
+            </span>
+            <span class="contact-row d-flex">
+              <img src="/src/images/telephone_icon.svg" alt="telephone-icon" width="24" height="24">
+              <p>+1 (555) 000-0000</p>
+            </span>
+            <span class="contact-row d-flex">
+              <img src="/src/images/location_icon.svg" alt="location-icon" width="24" height="24">
+              <p>123 Sample St, Sydney NSW 2000 AU</p>
+            </span>
+          </div>
+        </div>
+        <form class="d-flex container-fluid flex-column">
+          <div>
+            <label for="inputName" class="form-label">Name</label>
+            <input class="form-control" id="inputName">
+          </div>
+          <div>
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+          <div>
+            <label for="inputMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="inputMessage" placeholder="Type your message..." rows="7"></textarea>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <a class="link-dark" href="#">I accept the Terms</a>
+            </label>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="links">
+      <div class="d-flex" id="generalContainer">
+        <div class="container-fluid links-category">
+          <span class="logo-col inter-bold">
+            <img src="/src/images/logo.svg" alt="logo">
+            Ddsgnr
+          </span>
+          <div class="links-column d-flex flex-column justify-content-between">
+            <p class="roboto-medium">Categories</p>
+            <ul class="nav flex-column">
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Wall art</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Vase</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Tea Kettle</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Chair</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Basket</a></li>
+            </ul>
+          </div>
+          <div class="links-column d-flex flex-column" id="withoutTitle">
+            <ul class="nav flex-column">
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Bed table</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Armchair</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Ficus</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Desk decor</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Cactus</a></li>
+            </ul>
+          </div>
+          <div class="links-column d-flex flex-column justify-content-between">
+            <p class="roboto-medium">About</p>
+            <ul class="nav flex-column">
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Contact us</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">About Us</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Support/Help</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">FAQ</a></li>
+              <li><a href="#" class="link-dark link-underline link-underline-opacity-0">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container-fluid subscribe d-flex flex-column">
+          <div class="subscribe-title d-flex flex-column">
+            <p class="roboto-medium">Subscribe</p>
+            <p>Join our newsletter to stay up to date on features and releases.</p>
+          </div>
+          <form class="d-flex flex-column">
+            <span class="d-flex justify-content-between" id="formInputContainer">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"
+                aria-describedby="privacyPolicyConsent">
+              <button class="btn btn-outline-dark">Subscribe</button>
+            </span>
+            <div id="privacyPolicyConsent" class="form-text">
+              By subscribing you agree to with our <u>Privacy Policy</u> and provide consent to receive updates from
+              our
+              company.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

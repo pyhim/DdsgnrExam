@@ -1,0 +1,18 @@
+.greeting {
+    padding: $container-mobile-padding;
+
+    .container-fluid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+        margin-bottom: 48px;
+    }
+
+    .title-greeting-text {
+        font-size: 40px;
+    }
+
+    .greeting-text-interactive {
+        gap: 24px;
+    }
+}

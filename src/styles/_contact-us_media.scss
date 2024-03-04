@@ -1,0 +1,13 @@
+.contact-us {
+    padding: $container-mobile-padding;
+
+    .container-fluid#generalContactUsContainer {
+        display: flex;
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

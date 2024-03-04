@@ -1,32 +1,23 @@
 header {
-    height: 72px;
     padding: 0px 64px;
+
+    .navbar {
+        padding: 7px 0;
+    }
 
     .navbar-nav {
         gap: 32px
     }
     
-    .logo_image {
-        width: 130.6px;
-        height: 41px;
-    }
-    
-    .search_icon {
-        width: 24px;
-        height: 24px;
-    }
-    
     .search-button {
         padding: 8px 20px;
-        width: 126px;
-        height: 40px;
         font-size: 16px;
         line-height: 1.5;
+        gap: 12px;
     }
-    
-    .cart_icon {
-        width: 28px;
-        height: 24px;
+
+    .navbar-search-icon {
+        display: none;
     }
 }
 

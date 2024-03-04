@@ -2,10 +2,8 @@ $line-height-cards: 1.5;
 
 .featured-products {
     padding: $container-default-padding;
-    min-height: 829px;
 
     .title {
-        min-height: 101px;
         margin-bottom: 80px;
     }
 
@@ -15,6 +13,11 @@ $line-height-cards: 1.5;
         margin-bottom: 16px;
     }
 
+    .lower {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
     .title .btn {
         padding: 12px 24px;
         line-height: 1.5;
@@ -22,7 +25,6 @@ $line-height-cards: 1.5;
     }
 
     .products-cards {
-        min-height: 424px;
         gap: 32px;
     }
 

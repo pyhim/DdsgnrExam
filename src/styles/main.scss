@@ -1,4 +1,5 @@
 $container-default-padding: 112px 64px;
+$container-mobile-padding: 48px 24px;
 
 @import "fonts";
 
@@ -29,3 +30,12 @@ p {
 @import "sales";
 @import "contact-us";
 @import "links";
+
+@media (max-width: 960px) {
+    @import "header_media";
+    @import "greeting_media";
+    @import "featured-products_media";
+    @import "sales_media";
+    @import "contact-us_media";
+    @import "links_media";
+}

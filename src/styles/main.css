@@ -71,49 +71,38 @@ p {
 }
 
 header {
-  height: 72px;
   padding: 0px 64px;
+}
+header .navbar {
+  padding: 7px 0;
 }
 header .navbar-nav {
   gap: 32px;
 }
-header .logo_image {
-  width: 130.6px;
-  height: 41px;
-}
-header .search_icon {
-  width: 24px;
-  height: 24px;
-}
 header .search-button {
   padding: 8px 20px;
-  width: 126px;
-  height: 40px;
   font-size: 16px;
   line-height: 1.5;
+  gap: 12px;
 }
-header .cart_icon {
-  width: 28px;
-  height: 24px;
+header .navbar-search-icon {
+  display: none;
 }
 
 .greeting {
-  min-height: 1205px;
   padding: 112px 64px;
 }
-.greeting .row {
+.greeting .container-fluid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 80px;
-  margin: 0 0 80px 0;
+  margin-bottom: 80px;
 }
 .greeting .title-greeting-text {
   font-size: 56px;
   line-height: 1.2;
-  max-width: 616px;
-  min-height: 201px;
 }
 .greeting .greeting-text-interactive {
-  max-width: 616px;
-  min-height: 196px;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -130,10 +119,8 @@ header .cart_icon {
 
 .featured-products {
   padding: 112px 64px;
-  min-height: 829px;
 }
 .featured-products .title {
-  min-height: 101px;
   margin-bottom: 80px;
 }
 .featured-products .upper {
@@ -141,13 +128,16 @@ header .cart_icon {
   line-height: 1.2;
   margin-bottom: 16px;
 }
+.featured-products .lower {
+  line-height: 1.5;
+  font-size: 18px;
+}
 .featured-products .title .btn {
   padding: 12px 24px;
   line-height: 1.5;
   border-radius: 5px;
 }
 .featured-products .products-cards {
-  min-height: 424px;
   gap: 32px;
 }
 .featured-products .col {
@@ -270,7 +260,6 @@ header .cart_icon {
   gap: 128px;
 }
 .links .links-category {
-  max-width: 684px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
@@ -281,6 +270,9 @@ header .cart_icon {
 .links .links-column li {
   padding: 8px 0;
   font-size: 14px;
+}
+.links .links-column#withoutTitle {
+  align-self: flex-end;
 }
 .links .subscribe {
   max-width: 500px;
@@ -302,4 +294,82 @@ header .cart_icon {
 .links #privacyPolicyConsent {
   font-size: 12px;
   color: black;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 12px 24px;
+  }
+  header .navbar {
+    padding: 0;
+  }
+  header .container-fluid {
+    display: flex;
+  }
+  header .navbar-search-icon {
+    display: block;
+  }
+  .greeting {
+    padding: 48px 24px;
+  }
+  .greeting .container-fluid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+    margin-bottom: 48px;
+  }
+  .greeting .title-greeting-text {
+    font-size: 40px;
+  }
+  .greeting .greeting-text-interactive {
+    gap: 24px;
+  }
+  .featured-products {
+    padding: 48px 24px;
+  }
+  .featured-products .title {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .featured-products .upper {
+    font-size: 32px;
+  }
+  .featured-products .button-container {
+    justify-content: center;
+  }
+  .sales {
+    padding: 0 24px 48px;
+  }
+  .sales .container-fluid {
+    padding: 0;
+  }
+  .sales .sales-up {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .contact-us {
+    padding: 48px 24px;
+  }
+  .contact-us .container-fluid#generalContactUsContainer {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+  }
+  .contact-us .btn {
+    width: 100%;
+  }
+  .links {
+    padding: 48px 24px;
+  }
+  .links .d-flex#generalContainer {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .links .links-category {
+    display: flex;
+    flex-direction: column;
+  }
+  .links .links-column#withoutTitle {
+    align-self: flex-start;
+  }
 }/*# sourceMappingURL=main.css.map */
