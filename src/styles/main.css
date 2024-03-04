@@ -88,6 +88,9 @@ header .search-button {
 header .navbar-search-icon {
   display: none;
 }
+header .navbar-toggler-icon {
+  display: none;
+}
 
 .greeting {
   padding: 112px 64px;
@@ -307,6 +310,9 @@ header .navbar-search-icon {
     display: flex;
   }
   header .navbar-search-icon {
+    display: block;
+  }
+  header .navbar-toggler-icon {
     display: block;
   }
   .greeting {
